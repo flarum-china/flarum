@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-require '../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $server = new Flarum\Http\Server(
     Flarum\Foundation\Site::fromPaths([
